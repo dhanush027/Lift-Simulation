@@ -53,3 +53,8 @@ header {
 img {
     padding-left: 20px;
 }
+
+#gitrepo {
+    padding: 50px;
+    text-align: center;
+}
