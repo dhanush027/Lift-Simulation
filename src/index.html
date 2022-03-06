@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/src/css/main.css">
+<script type="text/javascript" src="js/main.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Lift</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome User</h1>
+        <span id="lifts">
+            <button class="add" onclick="addLift()">+ &nbsp; Add Lift </button>
+            <button class="remove" onclick="removeLift()">- &nbsp; Remove Lift</button>
+        </span>
+        <span id="floors">
+            <button class="add" onclick="addFloor()">+ &nbsp; Add Floor </button>
+            <button class="remove" onclick="removeFloor()">- &nbsp; Remove Floor</button>
+        </span>
+    </header>
+    <section id="section">
+        <div>
+            <button>up</button>
+            <button>down</button>
+            <hr />
+        </div>
+        <div>
+            <button>up</button>
+            <button>down</button>
+            <hr />
+        </div>
+        <div>
+            <button>up</button>
+            <span id="liftstore">
+                <img src="img/lift.png">
+                <img src="img/lift.png">
+            </span>
+            <hr />
+        </div>
+    </section>
+
+</body>
+
+</html>

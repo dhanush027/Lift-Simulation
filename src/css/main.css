@@ -1,0 +1,55 @@
+hr {
+    width: 100%;
+}
+
+section {
+    max-width: 60%;
+    margin: auto;
+    padding: 100px;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    margin: auto;
+}
+
+div {
+    padding: 50px;
+}
+
+header {
+    max-width: 1000px;
+    max-height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.add {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+}
+
+.remove {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+}
+
+#floors {
+    padding: 60px;
+}
+
+#lifts {
+    padding: 60px;
+}
+
+#liftstore {
+    padding-left: 80px;
+    height: 60px;
+}
+
+img {
+    padding-left: 20px;
+}
