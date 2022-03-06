@@ -39,4 +39,7 @@ function removeFloor() {
     if (destroyFloor.childElementCount > 3) {
         destroyFloor.removeChild(destroyFloor.firstElementChild);
     }
+    else{
+        alert("Nope! not allowed.");
+    }
 }
